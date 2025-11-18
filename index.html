@@ -1,0 +1,321 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Al Irfan • Frontend Developer</title>
+
+  <link rel="icon" href="profile.jpg" />
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@400;500;600;700&family=Space+Grotesk:wght@400;500;600;700&display=swap"
+    rel="stylesheet"
+  />
+
+  <!-- Icons -->
+  <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+  />
+
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body data-theme="dark">
+  <!-- background grid -->
+  <div class="bg-grid" aria-hidden="true"></div>
+
+  <!-- HEADER -->
+  <header class="site-header" id="home">
+    <div class="brand">
+      <div class="brand-logo">AI</div>
+      <div class="brand-text">
+        <span class="brand-tag"></span>
+        <span class="brand-name">Al Irfan Joshy</span>
+      </div>
+    </div>
+
+    <nav class="main-nav" aria-label="Primary navigation">
+      <a href="#home">Home</a>
+      <a href="#skills">Skills</a>
+      <a href="#projects">Work</a>
+      <a href="#contact">Contact</a>
+      <a href="Al Irfan Resume.pdf" download>Resume</a>
+    </nav>
+
+    <button class="theme-toggle" aria-pressed="false" aria-label="Toggle theme">
+      <span class="toggle-icon"></span>
+      <span class="toggle-label">Dark</span>
+    </button>
+
+    <button class="nav-toggle" aria-expanded="false" aria-controls="drawer">
+      <span></span><span></span><span></span>
+    </button>
+  </header>
+
+  <!-- MOBILE DRAWER -->
+  <aside class="drawer" id="drawer" aria-hidden="true">
+    <button class="drawer-close" aria-label="Close menu">×</button>
+    <div class="drawer-links">
+      <a href="https://github.com/alirfanjoshy" target="_blank" rel="noreferrer" class="github">
+        <i class="fab fa-github"></i>
+        <span>Github</span>
+      </a>
+      <a href="https://www.linkedin.com" target="_blank" rel="noreferrer" class="linkedin">
+        <i class="fab fa-linkedin-in"></i>
+        <span>LinkedIn</span>
+      </a>
+      <a href="https://twitter.com" target="_blank" rel="noreferrer" class="twitter">
+        <i class="fab fa-x-twitter"></i>
+        <span>Twitter</span>
+      </a>
+      <a href="https://calendly.com" target="_blank" rel="noreferrer" class="calendly">
+        <i class="fas fa-calendar-alt"></i>
+        <span>Calendly</span>
+      </a>
+    </div>
+
+    <nav class="drawer-nav">
+      <a href="#home">Home</a>
+      <a href="#skills">Skills</a>
+      <a href="#projects">Work</a>
+      <a href="#contact">Contact</a>
+      <a href="Resume.me.pdf" download>Resume</a>
+    </nav>
+  </aside>
+
+  <!-- MAIN -->
+  <main>
+    <!-- HERO -->
+    <section class="hero">
+      <div class="hero-content">
+        <span class="pill">✌ Hi there, I'm Al</span>
+        <h1>
+          A <span class="accent">Frontend Developer</span>.
+          I help products <span class="accent">launch</span> and
+          <span class="accent">grow</span>.
+        </h1>
+        <p class="hero-text">
+          I design and build fast, playful interfaces with clean code, smooth animations
+          and a focus on real users.
+        </p>
+
+        <div class="hero-actions">
+          <a class="btn primary" href="mailto:al.irfan.joshy01@gmail.com">
+            Book a call
+          </a>
+          <a class="btn ghost" href="Resume.me.pdf" download>
+            Download resume
+          </a>
+        </div>
+
+        <dl class="hero-stats">
+          <div>
+            <dt>Years of experience</dt>
+            <dd>1</dd>
+          </div>
+          <div>
+            <dt>Projects shipped</dt>
+            <dd>12</dd>
+          </div>
+          <div>
+            <dt>Response time</dt>
+            <dd>&lt; 12h</dd>
+          </div>
+        </dl>
+      </div>
+
+      <div class="hero-visual">
+        <div class="avatar-card">
+          <img src="profile.jpg" alt="Al Irfan portrait" />
+          <div class="avatar-text">
+            <p class="eyebrow">Currently working on</p>
+            <h3>Personal portfolio & frontend projects</h3>
+            <p class="subtle">HTML • CSS • JAVASCRIPT • JAVA</p>
+          </div>
+        </div>
+        <div class="floating-tag">
+          <span>Based in NYC • open to work</span>
+        </div>
+      </div>
+    </section>
+    
+    <!-- SKILLS -->
+    <section class="section skills" id="skills">
+      <header class="section-header">
+        <p class="eyebrow">Coding skills</p>
+        <h2>What I work with</h2>
+      </header>
+
+      <div class="cards-grid">
+        <article class="card">
+          <h3>Languages</h3>
+          <p>HTML • CSS • JavaScript • Java</p>
+        </article>
+        <article class="card">
+          <h3>Databases</h3>
+          <p>MongoDB • PostgreSQL</p>
+        </article>
+        <article class="card">
+          <h3>Tools & Platforms</h3>
+          <p>Git • GitHub • VS Code • Figma</p>
+        </article>
+      </div>
+
+      <div class="stack-grid">
+        <span>HTML</span>
+        <span>CSS</span>
+        <span>JavaScript</span>
+        <span>Java</span>
+        <span>React</span>
+        <span>Node.js</span>
+        <span>MongoDB</span>
+        <span>PostgreSQL</span>
+        <span>Git</span>
+        <span>GitHub</span>
+        <span>VS Code</span>
+        <span>Figma</span>
+      </div>
+    </section>
+
+    <!-- PROJECTS -->
+    <section class="section projects" id="projects">
+      <header class="section-header">
+        <p class="eyebrow">Showroom</p>
+        <h2>Selected work</h2>
+      </header>
+
+      <div class="cards-grid">
+        <article class="card project">
+          <header class="project-header">
+            <div>
+              <p class="eyebrow">Phonebook.app</p>
+              <h3>Personal CRM</h3>
+            </div>
+            <span class="badge live">Live</span>
+          </header>
+          <p>
+            Manage your contacts with a clean dashboard. Fast CRUD, search, and stats built
+            with MERN and Redux Toolkit.
+          </p>
+          <ul class="meta-list">
+            <li>React</li>
+            <li>Node</li>
+            <li>MongoDB</li>
+          </ul>
+          <div class="project-links">
+            <a href="https://github.com/alirfanjoshy" target="_blank" rel="noreferrer">Case Study</a>
+            <a href="https://github.com/alirfanjoshy/PersonalJournal" target="_blank" rel="noreferrer">View Code</a>
+          </div>
+        </article>
+
+        <article class="card project">
+          <header class="project-header">
+            <div>
+              <p class="eyebrow">Journal.space</p>
+              <h3>Personal Journal</h3>
+            </div>
+            <span class="badge draft">In progress</span>
+          </header>
+          <p>
+            A calm place to write every day. Offline-first, encrypted entries and AI summaries
+            to keep you consistent.
+          </p>
+          <ul class="meta-list">
+            <li>Astro</li>
+            <li>Tailwind</li>
+            <li>Supabase</li>
+          </ul>
+          <div class="project-links">
+            <a href="https://github.com/alirfanjoshy" target="_blank" rel="noreferrer">Case Study</a>
+            <a href="https://github.com/alirfanjoshy/PersonalJournal" target="_blank" rel="noreferrer">View Code</a>
+          </div>
+        </article>
+
+        <article class="card project">
+          <header class="project-header">
+            <div>
+              <p class="eyebrow">JobHuntr</p>
+              <h3>Job Finding Solution</h3>
+            </div>
+            <span class="badge draft">In progress</span>
+          </header>
+          <p>
+            Connect with thousands of employers and discover opportunities that match your skills
+          </p>
+          <ul class="meta-list">
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>JAVASCRIPT</li>
+          </ul>
+          <div class="project-links">
+           <!-- <a href="https://github.com/alirfanjoshy" target="_blank" rel="noreferrer">Case Study</a>
+            <a href="https://github.com/alirfanjoshy/PersonalJournal" target="_blank" rel="noreferrer">View Code</a> -->
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <!-- QUOTE -->
+    <section class="section quote">
+      <div class="quote-box">
+        <span class="quote-mark left">“</span>
+        <p>There’s no growth in playing small. Ship, learn, and iterate.</p>
+        <span class="quote-mark right">”</span>
+      </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section class="section contact" id="contact">
+      <header class="section-header">
+        <p class="eyebrow">Connect with me</p>
+        <h2>Let’s build something</h2>
+      </header>
+
+      <div class="contact-layout">
+        <div class="contact-card">
+          <p>
+            Have a project, internship, or freelance opportunity? Share a short brief and I’ll
+            get back to you fast.
+          </p>
+          <div class="contact-links">
+            <a href="mailto:al.irfan.joshy01@gmail.com">
+              <i class="fas fa-envelope"></i>
+              <span>al.irfan.joshy01@gmail.com</span>
+            </a>
+            <a href="tel:+16467320515">
+              <i class="fas fa-phone"></i>
+              <span>+1 (646) 732-0515</span>
+            </a>
+          </div>
+          <a class="btn primary" href="mailto:al.irfan.joshy01@gmail.com">Shoot me an email</a>
+        </div>
+
+        <div class="social-strip">
+          <a href="https://github.com/alirfanjoshy" target="_blank" rel="noreferrer">
+            <i class="fab fa-github"></i> Github
+          </a>
+          <a href="https://www.linkedin.com" target="_blank" rel="noreferrer">
+            <i class="fab fa-linkedin-in"></i> LinkedIn
+          </a>
+          <a href="https://twitter.com" target="_blank" rel="noreferrer">
+            <i class="fab fa-x-twitter"></i> Twitter
+          </a>
+          <a href="https://calendly.com" target="_blank" rel="noreferrer">
+            <i class="fas fa-calendar-alt"></i> Calendly
+          </a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- FOOTER -->
+  <footer class="site-footer">
+    <p>Built with 💚 • © <span id="year"></span> Al Irfan</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
