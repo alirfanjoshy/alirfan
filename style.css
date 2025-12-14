@@ -253,6 +253,7 @@ a {
   background: #116f94;
 }
 
+
 .drawer-nav {
   display: flex;
   justify-content: center;
@@ -368,7 +369,11 @@ a {
 }
 
 .hero-stats dt {
-  color: var(--muted);
+  color: rgb(49, 222, 37);
+  border: 2px solid rgb(49, 222, 37);
+  border-radius: 18px;
+  padding: 0.6rem 1rem;
+  background-color: none;
 }
 
 .hero-stats dd {
@@ -414,7 +419,7 @@ a {
 
 /* make eyebrow readable in neon theme too */
 body[data-theme='light'] .eyebrow {
-  color: #f4f4f4;
+  color: rgba(29, 255, 118, 0.7);
 }
 
 .subtle {
