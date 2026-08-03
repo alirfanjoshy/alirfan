@@ -45,6 +45,7 @@ function setDrawer(open) {
   if (!drawer) return;
   drawer.classList.toggle('open', open);
   navToggle?.setAttribute('aria-expanded', String(open));
+  navToggle?.setAttribute('aria-label', open ? 'Close menu' : 'Open menu');
   drawer.setAttribute('aria-hidden', String(!open));
   body.style.overflow = open ? 'hidden' : '';
 }
